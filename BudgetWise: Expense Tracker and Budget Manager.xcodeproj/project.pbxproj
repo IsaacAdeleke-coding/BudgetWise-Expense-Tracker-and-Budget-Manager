@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		2B37E92B2CE8507D00069764 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B37E92A2CE8507D00069764 /* main.cpp */; };
+		2B37E9332CE8517800069764 /* Expense.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B37E9312CE8517800069764 /* Expense.cpp */; };
+		2B37E9362CE8518F00069764 /* Budget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B37E9342CE8518F00069764 /* Budget.cpp */; };
+		2B37E9392CE851AB00069764 /* ExpenseManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B37E9372CE851AB00069764 /* ExpenseManager.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		2B37E9272CE8507D00069764 /* BudgetWise: Expense Tracker and Budget Manager */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "BudgetWise: Expense Tracker and Budget Manager"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B37E92A2CE8507D00069764 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2B37E9312CE8517800069764 /* Expense.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Expense.cpp; sourceTree = "<group>"; };
+		2B37E9322CE8517800069764 /* Expense.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Expense.hpp; sourceTree = "<group>"; };
+		2B37E9342CE8518F00069764 /* Budget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Budget.cpp; sourceTree = "<group>"; };
+		2B37E9352CE8518F00069764 /* Budget.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Budget.hpp; sourceTree = "<group>"; };
+		2B37E9372CE851AB00069764 /* ExpenseManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ExpenseManager.cpp; sourceTree = "<group>"; };
+		2B37E9382CE851AB00069764 /* ExpenseManager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ExpenseManager.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				2B37E92A2CE8507D00069764 /* main.cpp */,
+				2B37E9372CE851AB00069764 /* ExpenseManager.cpp */,
+				2B37E9382CE851AB00069764 /* ExpenseManager.hpp */,
+				2B37E9342CE8518F00069764 /* Budget.cpp */,
+				2B37E9352CE8518F00069764 /* Budget.hpp */,
+				2B37E9312CE8517800069764 /* Expense.cpp */,
+				2B37E9322CE8517800069764 /* Expense.hpp */,
 			);
 			path = "BudgetWise: Expense Tracker and Budget Manager";
 			sourceTree = "<group>";
@@ -119,7 +134,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B37E9332CE8517800069764 /* Expense.cpp in Sources */,
 				2B37E92B2CE8507D00069764 /* main.cpp in Sources */,
+				2B37E9392CE851AB00069764 /* ExpenseManager.cpp in Sources */,
+				2B37E9362CE8518F00069764 /* Budget.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
