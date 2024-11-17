@@ -66,13 +66,13 @@
 		2B37E9292CE8507D00069764 /* BudgetWise: Expense Tracker and Budget Manager */ = {
 			isa = PBXGroup;
 			children = (
-				2B37E92A2CE8507D00069764 /* main.cpp */,
 				2B37E9372CE851AB00069764 /* ExpenseManager.cpp */,
 				2B37E9382CE851AB00069764 /* ExpenseManager.hpp */,
 				2B37E9342CE8518F00069764 /* Budget.cpp */,
 				2B37E9352CE8518F00069764 /* Budget.hpp */,
 				2B37E9312CE8517800069764 /* Expense.cpp */,
 				2B37E9322CE8517800069764 /* Expense.hpp */,
+				2B37E92A2CE8507D00069764 /* main.cpp */,
 			);
 			path = "BudgetWise: Expense Tracker and Budget Manager";
 			sourceTree = "<group>";

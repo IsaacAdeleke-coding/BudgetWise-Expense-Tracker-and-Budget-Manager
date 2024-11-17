@@ -5,9 +5,21 @@
 //  Created by Isaac Adeleke on 11/15/24.
 //
 
-#ifndef Budget_hpp
-#define Budget_hpp
+#ifndef BUDGET_HPP
+#define BUDGET_HPP
 
-#include <stdio.h>
+#include <string>
+#include <unordered_map>
 
-#endif /* Budget_hpp */
+class Budget {
+public:
+    std::unordered_map<std::string, double> categoryBudgets;
+    double totalBudget;
+
+    Budget() : totalBudget(0.0) {}
+
+    void setBudget(const std::string &category, double amount);
+    bool isOverBudget(const std::string &category, double currentAmount) const;
+};
+
+#endif

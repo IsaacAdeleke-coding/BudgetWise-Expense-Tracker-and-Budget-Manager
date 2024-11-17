@@ -5,9 +5,27 @@
 //  Created by Isaac Adeleke on 11/15/24.
 //
 
-#ifndef ExpenseManager_hpp
-#define ExpenseManager_hpp
+#ifndef EXPENSEMANAGER_HPP
+#define EXPENSEMANAGER_HPP
 
-#include <stdio.h>
+#include "Expense.hpp"
+#include "Budget.hpp"
+#include <vector>
+#include <string>
 
-#endif /* ExpenseManager_hpp */
+class ExpenseManager {
+private:
+    std::vector<Expense> expenses;
+    Budget budget;
+
+public:
+    void addExpense(const Expense &expense);
+    void viewExpenses() const;
+    void viewCategorySummary(const std::string &category) const;
+    void setBudget(const std::string &category, double amount);
+    void checkBudgetAlerts() const;
+    void saveExpensesToFile(const std::string &filename) const;
+    void loadExpensesFromFile(const std::string &filename);
+};
+
+#endif

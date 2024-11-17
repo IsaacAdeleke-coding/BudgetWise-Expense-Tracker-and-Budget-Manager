@@ -5,9 +5,20 @@
 //  Created by Isaac Adeleke on 11/15/24.
 //
 
-#ifndef Expense_hpp
-#define Expense_hpp
+#ifndef EXPENSE_HPP
+#define EXPENSE_HPP
 
-#include <stdio.h>
+#include <string>
 
-#endif /* Expense_hpp */
+struct Expense {
+    double amount;
+    std::string date;
+    std::string category;
+    std::string description;
+    std::string tags;
+
+    Expense(double amt, const std::string &dt, const std::string &cat, const std::string &desc, const std::string &tg)
+        : amount(amt), date(dt), category(cat), description(desc), tags(tg) {}
+};
+
+#endif

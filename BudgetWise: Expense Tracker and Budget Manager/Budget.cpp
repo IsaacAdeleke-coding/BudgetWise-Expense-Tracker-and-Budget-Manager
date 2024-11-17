@@ -6,3 +6,14 @@
 //
 
 #include "Budget.hpp"
+
+void Budget::setBudget(const std::string &category, double amount) {
+    categoryBudgets[category] = amount;
+}
+
+bool Budget::isOverBudget(const std::string &category, double currentAmount) const {
+    if (categoryBudgets.find(category) != categoryBudgets.end()) {
+        return currentAmount > categoryBudgets.at(category);
+    }
+    return false;
+}

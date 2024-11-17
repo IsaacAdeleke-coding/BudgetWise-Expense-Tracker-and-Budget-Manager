@@ -6,3 +6,5 @@
 //
 
 #include "Expense.hpp"
+// No additional implementation needed for Expense struct
+
